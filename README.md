@@ -1,322 +1,347 @@
-<div align="center">
+XI PROJECTS — WEB NOVEL CMS
+Commercial CMS for Web Novels, Light Novels & Translation Platforms
 
-# NOVELFORGE CMS
+Launch your own novel platform without building the entire infrastructure from scratch.
 
-### Commercial CMS for Web Novels, Light Novels & Translation Platforms
+Catalog • Reader • Releases • Teams • SEO • Admin Panel • API • Monetization • Responsive UI
 
-**Launch your own novel platform without building the infrastructure from scratch.**
 
-Catalog · Reader · Releases · Teams · SEO · Admin Panel · API · Monetization
+============================================================
+ABOUT XI PROJECTS
+============================================================
 
-<br>
+XI Projects is a commercial CMS platform designed specifically for:
 
-[View Demo](#demo) · [Compare Editions](#editions) · [Features](#features) · [Purchase](#purchase)
+• Web Novels
+• Light Novels
+• Original Fiction
+• Translation Teams
+• Publishers
+• Multi-author platforms
+• Private novel communities
+• Large-scale reading platforms
 
-<br>
+Unlike generic CMS solutions, XI Projects is built around the actual structure of serialized fiction:
 
-![Status](https://img.shields.io/badge/status-commercial-111111?style=for-the-badge)
-![License](https://img.shields.io/badge/license-proprietary-111111?style=for-the-badge)
-![Web Novels](https://img.shields.io/badge/built%20for-web%20novels-7c3aed?style=for-the-badge)
+Novel → Volumes → Chapters → Releases → Readers
 
-</div>
+The system includes a full administrative environment for managing titles, chapters, users, translation teams, releases, metadata and platform settings.
 
----
 
-## A complete platform for publishing fiction
+============================================================
+PACKAGES
+============================================================
 
-**NovelForge** is a production-ready CMS designed specifically for:
+All packages provide the same core functionality.
 
-- Web Novels
-- Light Novels
-- Original Fiction
-- Translation Teams
-- Publishers
-- Multi-author platforms
-- Community novel projects
+The difference is the underlying technology stack, deployment architecture and future customization potential.
 
-Instead of adapting WordPress, generic Laravel panels or blogging engines, you get a system built around the actual structure of serialized fiction.
 
-> Novel → Volumes → Chapters → Releases → Readers
+STARTED PACK
+$399
 
-Everything is controlled from a dedicated administration panel.
+Stack:
+• Yii 1 / Yii 2
+• PHP
+• MySQL / MariaDB
 
----
+Suitable for:
+• Translation teams
+• Private libraries
+• Lightweight deployments
+• Projects running on inexpensive VPS infrastructure
 
-# Editions
+A practical option for projects that need a complete CMS with low infrastructure requirements.
 
-Choose the architecture that fits your project.
 
-<table>
-<tr>
-<td width="25%" valign="top">
+------------------------------------------------------------
 
-### NEXT.JS
+MEDIUM PACK
+$499
 
-## **$499**
+Stack:
+• Next.js
+• React
+• REST / API
+• SSR / ISR
 
-Modern architecture for projects focused on performance, API integrations and scalable frontend infrastructure.
+Suitable for:
+• Modern novel platforms
+• Commercial projects
+• API-oriented architectures
+• Projects focused on frontend performance
+• Platforms planning future scaling
 
-**Stack**
+A modern frontend-oriented implementation suitable for contemporary web platforms.
 
-`Next.js`  
-`React`  
-`REST / API`  
-`SSR / ISR`
 
-#### Best for
+------------------------------------------------------------
 
-Modern novel platforms, startups and projects expecting future scaling.
+LARGE PACK
+$599
 
-</td>
+Stack:
+• Laravel
+• PHP
+• API
+• Queue Workers
+• Background Jobs
 
-<td width="25%" valign="top">
+Suitable for:
+• Commercial platforms
+• Projects requiring external integrations
+• Complex backend workflows
+• Automation
+• Queue processing
+• Extended customization
 
-### YII EDITION
+A flexible backend-oriented implementation based on the Laravel ecosystem.
 
-## **$399**
 
-Reliable and lightweight edition for projects where simplicity and resource efficiency matter.
+------------------------------------------------------------
 
-**Stack**
+BOOST PACK
+$939
 
-`Yii 1 / Yii 2`  
-`PHP`  
-`MySQL / MariaDB`
+Stack:
+• Private Engine
+• Proprietary architecture
+• High-performance backend
+• API-first architecture
+• Advanced infrastructure options
 
-#### Best for
+Suitable for:
+• Large projects
+• High-load platforms
+• Custom infrastructure
+• Projects requiring deeper architectural flexibility
+• Customers requiring a private implementation
 
-Translation teams, private libraries and inexpensive VPS deployments.
+The Boost Pack uses a private XI Projects engine that is not publicly distributed.
 
-</td>
 
-<td width="25%" valign="top">
+============================================================
+IMPORTANT
+============================================================
 
-### LARAVEL
+STARTED PACK, MEDIUM PACK, LARGE PACK and BOOST PACK contain the same core CMS functionality.
 
-## **$599**
+The packages are not divided into artificial feature tiers.
 
-Extended PHP architecture based on the Laravel ecosystem.
+You are choosing the technology stack and architecture — not paying to unlock basic features.
 
-**Stack**
 
-`Laravel`  
-`PHP`  
-`API`  
-`Queue Workers`
+============================================================
+CORE FEATURES
+============================================================
 
-#### Best for
-
-Commercial projects requiring integrations, background jobs and extensive customization.
-
-</td>
-
-<td width="25%" valign="top">
-
-### PRIVATE ENGINE
-
-## **$939**
-
-Our highest-tier implementation powered by a private architecture not distributed publicly.
-
-**Stack**
-
-`Private Core`  
-`High-performance backend`  
-`API-first architecture`  
-`Advanced infrastructure`
-
-#### Best for
-
-Large platforms and customers looking for the most complete version of the system.
-
-</td>
-</tr>
-</table>
-
----
-
-# Features
-
-### 📚 Novel Management
+NOVEL MANAGEMENT
 
 Create and manage:
 
-- novels;
-- volumes;
-- chapters;
-- alternative titles;
-- authors;
-- artists;
-- translators;
-- genres;
-- tags;
-- publication statuses;
-- age ratings;
-- cover artwork;
-- descriptions;
-- metadata.
-
----
-
-### 📖 Modern Reader
-
-A reader designed specifically for long-form fiction.
-
-Supports:
-
-- typography customization;
-- font size settings;
-- reading width;
-- themes;
-- light / dark mode;
-- chapter navigation;
-- reading history;
-- bookmarks;
-- progress tracking;
-- mobile reading;
-- keyboard navigation.
-
----
-
-### 🔎 Advanced Catalog
-
-Users can discover titles through:
-
-- genres;
-- tags;
-- status;
-- popularity;
-- recently updated;
-- newest titles;
-- rating;
-- alphabetical sorting;
-- advanced filters.
-
----
-
-### ⚡ Release System
-
-Built-in release management for serialized content.
-
-Novel
-├── Volume 1
-│ ├── Chapter 1
-│ ├── Chapter 2
-│ └── Chapter 3
-│
-├── Volume 2
-│ ├── Chapter 4
-│ └── Chapter 5
-│
-└── Side Stories
+• Novels
+• Light novels
+• Volumes
+• Chapters
+• Side stories
+• Alternative titles
+• Authors
+• Artists
+• Translators
+• Editors
+• Genres
+• Tags
+• Publication statuses
+• Age ratings
+• Covers
+• Descriptions
+• Metadata
 
 
----
+============================================================
+MODERN READER
+============================================================
 
-### 👥 Translation Teams
+The built-in reader is designed for long-form fiction.
 
-Suitable for multi-user translation projects.
+Available functionality includes:
 
-Possible roles include:
+• Typography customization
+• Font size settings
+• Reading width settings
+• Light theme
+• Dark theme
+• Chapter navigation
+• Reading history
+• Bookmarks
+• Reading progress
+• Mobile reading
+• Keyboard navigation
+• Responsive layout
 
-- Administrator
-- Project Manager
-- Translator
-- Editor
-- Proofreader
-- Author
-- Publisher
 
-Projects can be assigned to teams and individual contributors.
+============================================================
+ADVANCED CATALOG
+============================================================
 
----
+Readers can browse and discover titles using:
 
-### 🛡 Administration Panel
+• Genres
+• Tags
+• Publication status
+• Popularity
+• Recently updated
+• New releases
+• Ratings
+• Alphabetical sorting
+• Advanced filters
+• Search
 
-Centralized control over the entire platform.
 
-Manage:
+============================================================
+RELEASE SYSTEM
+============================================================
 
-- users;
-- novels;
-- chapters;
-- teams;
-- reports;
-- comments;
-- moderation;
-- media;
-- permissions;
-- site settings;
-- SEO;
-- system configuration.
-
----
-
-### 🌐 SEO
-
-Designed with discoverability in mind.
-
-Includes support for:
-
-- SEO-friendly URLs;
-- OpenGraph;
-- meta titles;
-- meta descriptions;
-- structured metadata;
-- canonical URLs;
-- sitemap generation;
-- robots configuration;
-- server-side rendering depending on edition.
+XI Projects supports structured serialized publishing.
 
 Example:
 
-```text
+Novel
+ ├── Volume 1
+ │    ├── Chapter 1
+ │    ├── Chapter 2
+ │    └── Chapter 3
+ │
+ ├── Volume 2
+ │    ├── Chapter 4
+ │    └── Chapter 5
+ │
+ └── Side Stories
+
+
+============================================================
+TRANSLATION TEAMS
+============================================================
+
+The CMS can be used by translation groups and multi-user publishing teams.
+
+Possible roles:
+
+• Administrator
+• Project Manager
+• Translator
+• Editor
+• Proofreader
+• Author
+• Publisher
+• Moderator
+
+Titles can be assigned to teams and individual contributors.
+
+
+============================================================
+ADMINISTRATION PANEL
+============================================================
+
+Centralized management for the entire platform.
+
+Administrators can manage:
+
+• Users
+• Novels
+• Chapters
+• Volumes
+• Teams
+• Releases
+• Reports
+• Comments
+• Moderation
+• Media
+• Permissions
+• SEO
+• Platform settings
+• System configuration
+
+
+============================================================
+SEO
+============================================================
+
+XI Projects is designed for search-friendly publishing.
+
+Supported architecture may include:
+
+• SEO-friendly URLs
+• Meta titles
+• Meta descriptions
+• OpenGraph metadata
+• Canonical URLs
+• Structured metadata
+• Sitemap generation
+• robots.txt configuration
+• Server-side rendering depending on stack
+
+
+Example URLs:
+
 /novel/shadow-slave
 /novel/shadow-slave/volume-3
 /novel/shadow-slave/chapter-184
 
-📱 Responsive Design
 
-The interface works across:
+============================================================
+RESPONSIVE DESIGN
+============================================================
 
-Desktop · Laptop · Tablet · Mobile
+The platform is designed for:
 
-Reader pages are optimized for long reading sessions and small screens.
+• Desktop
+• Laptop
+• Tablet
+• Mobile
 
-Architecture
+Reader pages are optimized for long reading sessions and mobile devices.
 
-The platform can be deployed using several architectures depending on the purchased edition.
 
-Next.js Edition
+============================================================
+ARCHITECTURE
+============================================================
 
-┌──────────────────────────┐
-│        NEXT.JS UI        │
-│                         │
-│ Catalog / Reader / User │
-└─────────────┬────────────┘
-              │
-              ▼
-┌──────────────────────────┐
-│           API            │
-├──────────────────────────┤
-│ Novels                   │
-│ Chapters                 │
-│ Users                    │
-│ Teams                    │
-│ Search                   │
-│ Administration           │
-└─────────────┬────────────┘
-              │
-              ▼
-       Database / Storage
+Depending on the selected package, XI Projects can be deployed using different architectures.
 
-Built for real projects
+Example API-oriented structure:
 
-NovelForge isn't a generic CMS with a novel theme installed on top.
+┌─────────────────────────────┐
+│         FRONTEND            │
+│                             │
+│ Catalog / Reader / Account  │
+└──────────────┬──────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│             API             │
+├─────────────────────────────┤
+│ Novels                      │
+│ Chapters                    │
+│ Users                       │
+│ Teams                       │
+│ Search                      │
+│ Administration              │
+└──────────────┬──────────────┘
+               │
+               ▼
+        Database / Storage
 
-Its data structure and interfaces are designed around serialized literature from the beginning.
 
-This makes common operations considerably easier:
+============================================================
+BUILT FOR NOVELS, NOT BLOGS
+============================================================
+
+XI Projects is not a generic blog CMS with a novel theme installed on top.
+
+Its data model and interfaces are designed around serialized fiction from the beginning.
+
+Typical workflow:
 
 Create Novel
      ↓
@@ -330,134 +355,217 @@ Publish Release
      ↓
 Reader receives update
 
-Deployment
 
-Depending on the edition, deployment may include support for:
+============================================================
+DEPLOYMENT
+============================================================
 
-Docker
-Nginx
-Caddy
-Cloudflare
-Linux VPS
-PostgreSQL
-MySQL
-MariaDB
-Redis
-S3-compatible storage
-CDN infrastructure
-Editions comparison
-Feature	Yii	Next.js	Laravel	Private Engine
-Novel catalog	✅	✅	✅	✅
-Reader	✅	✅	✅	✅
-Admin panel	✅	✅	✅	✅
-Responsive UI	✅	✅	✅	✅
-SEO	✅	✅	✅	✅
-Translation teams	✅	✅	✅	✅
-User accounts	✅	✅	✅	✅
-API integrations	◐	✅	✅	✅
-Modern frontend	◐	✅	✅	✅
-Queue processing	◐	✅	✅	✅
-Advanced scaling	—	✅	✅	✅
-Private architecture	—	—	—	✅
-Pricing
-<div align="center">
-Edition	Price
-Yii 1 / Yii 2	$399
-Next.js	$499
-Laravel	$599
-Private Engine	$939
-One-time commercial license
+Depending on the selected stack and project requirements, deployments can support:
 
-No mandatory monthly CMS subscription.
+• Docker
+• Nginx
+• Caddy
+• Cloudflare
+• Linux VPS
+• PostgreSQL
+• MySQL
+• MariaDB
+• Redis
+• S3-compatible storage
+• CDN infrastructure
 
-</div>
-Optional services
 
-Available separately depending on the project:
+============================================================
+PACKAGE COMPARISON
+============================================================
 
-custom UI/UX;
-migration from another CMS;
-infrastructure setup;
-custom integrations;
-API development;
-Discord integration;
-payment integration;
-CDN configuration;
-Cloudflare configuration;
-database migration;
-feature development;
-branding;
-deployment.
-Who is this for?
-Translation Teams
+STARTED PACK
+Technology: Yii 1 / Yii 2
+Price: $399
 
-Run multiple translation projects from one system without maintaining a collection of unrelated scripts and plugins.
+MEDIUM PACK
+Technology: Next.js
+Price: $499
 
-Independent Publishers
+LARGE PACK
+Technology: Laravel
+Price: $599
 
-Launch a branded publishing platform under your own domain.
+BOOST PACK
+Technology: Private Engine
+Price: $939
 
-Authors
 
-Publish serialized fiction through a professional reader rather than a generic blog engine.
+Core CMS functionality:
+STARTED PACK  — Included
+MEDIUM PACK   — Included
+LARGE PACK    — Included
+BOOST PACK    — Included
 
-Communities
 
-Create a centralized catalog for translators, editors, readers and contributors.
+Novel Catalog:
+All packages — Included
 
-Startups
+Reader:
+All packages — Included
 
-Use an existing foundation instead of spending months developing basic CMS functionality.
+Admin Panel:
+All packages — Included
 
-Demo
+Responsive UI:
+All packages — Included
+
+SEO:
+All packages — Included
+
+Translation Teams:
+All packages — Included
+
+User Accounts:
+All packages — Included
+
+Release Management:
+All packages — Included
+
+Roles & Permissions:
+All packages — Included
+
+The primary difference between packages is the technology stack and architecture.
+
+
+============================================================
+PRICING
+============================================================
+
+STARTED PACK
+Yii 1 / Yii 2
+$399
+
+MEDIUM PACK
+Next.js
+$499
+
+LARGE PACK
+Laravel
+$599
+
+BOOST PACK
+Private Engine
+$939
+
+
+One-time commercial license.
+
+No mandatory monthly CMS subscription unless additional managed services are ordered separately.
+
+
+============================================================
+OPTIONAL SERVICES
+============================================================
+
+Additional services can be ordered separately:
+
+• Custom UI / UX
+• Custom frontend
+• Custom reader design
+• Migration from another CMS
+• Infrastructure setup
+• API development
+• External integrations
+• Discord integration
+• Payment integration
+• CDN configuration
+• Cloudflare configuration
+• Database migration
+• Custom feature development
+• Branding
+• Deployment
+• Server configuration
+• Performance optimization
+
+
+============================================================
+WHO IS XI PROJECTS FOR?
+============================================================
+
+TRANSLATION TEAMS
+
+Manage multiple titles, translators, editors and releases from one centralized platform.
+
+
+PUBLISHERS
+
+Launch a branded publishing platform under your own domain and infrastructure.
+
+
+AUTHORS
+
+Publish serialized fiction through a platform specifically designed for chapters, volumes and releases.
+
+
+COMMUNITIES
+
+Create a centralized platform for readers, translators, editors and contributors.
+
+
+STARTUPS
+
+Launch a web novel platform without spending months developing basic CMS infrastructure from zero.
+
+
+============================================================
+DEMO
+============================================================
 
 A demonstration environment can be provided before purchase.
 
-The demo may include access to:
+The demo may include:
 
-✓ Homepage
-✓ Catalog
-✓ Novel page
-✓ Reader
-✓ User profile
-✓ Admin interface
-✓ Mobile version
+• Homepage
+• Catalog
+• Novel page
+• Reader
+• User profile
+• Admin interface
+• Mobile version
 
-Private engine source code and internal architecture are not exposed through the public demonstration.
 
-License
+The internal source code and architecture of the Boost Pack private engine are not publicly exposed.
 
-NovelForge is commercial proprietary software.
+
+============================================================
+LICENSE
+============================================================
+
+XI Projects is commercial proprietary software.
 
 A purchased license grants usage rights according to the selected agreement.
 
-Redistribution, resale or publication of the source code is not permitted unless explicitly included in the contract.
+Redistribution, resale, sublicensing or public publication of the source code is prohibited unless explicitly permitted by contract.
 
-Purchase
 
-For licensing, demonstrations or custom development:
+============================================================
+PURCHASE
+============================================================
 
-Contact: your-contact@example.com
+For licensing, demonstrations, custom development or integration requests:
 
-Discord: your-discord
+Contact:
+support@xi.community
 
-Telegram: @yourusername
+Discord:
 
-<div align="center">
+
+Telegram:
+@licht_re
+
+
+============================================================
+XI PROJECTS
+============================================================
+
 Build the library.
 Publish the story.
 Own the platform.
 
-NovelForge CMS
-
 Commercial infrastructure for modern web fiction.
-
-</div> ```
-
-Я бы ещё сильнее переработал сам нейминг тарифов. Вместо сухого «Yii / Laravel» на первом экране можно оставить технологии только мелким текстом, а продавать пакеты как:
-
-Пакет	Движок	Цена
-Core	Yii 1 / Yii 2	$399
-Nova	Next.js	$499
-Pro	Laravel	$599
-Obsidian	Private Engine	$939
