@@ -1,348 +1,510 @@
-XI PROJECTS — WEB NOVEL CMS
-Commercial CMS for Web Novels, Light Novels & Translation Platforms
+<div align="center">
 
-Launch your own novel platform without building the entire infrastructure from scratch.
+# XI PROJECTS
 
-Catalog • Reader • Releases • Teams • SEO • Admin Panel • API • Monetization • Responsive UI
+### Commercial CMS for Web Novels, Light Novels & Translation Platforms
 
+**A production-ready platform for launching modern web novel and light novel services.**
 
-============================================================
-ABOUT XI PROJECTS
-============================================================
+Catalog • Reader • Releases • Teams • SEO • Admin Panel • API • PostgreSQL
 
-XI Projects is a commercial CMS platform designed specifically for:
+<br>
 
-• Web Novels
-• Light Novels
-• Original Fiction
-• Translation Teams
-• Publishers
-• Multi-author platforms
-• Private novel communities
-• Large-scale reading platforms
+![License](https://img.shields.io/badge/license-commercial-111111?style=for-the-badge)
+![Database](https://img.shields.io/badge/database-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Type](https://img.shields.io/badge/product-Web%20Novel%20CMS-7c3aed?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-available-16a34a?style=for-the-badge)
 
-Unlike generic CMS solutions, XI Projects is built around the actual structure of serialized fiction:
+<br>
 
-Novel → Volumes → Chapters → Releases → Readers
+[Overview](#overview) •
+[Packages](#packages) •
+[Features](#features) •
+[Architecture](#architecture) •
+[Pricing](#pricing) •
+[License](#license)
 
-The system includes a full administrative environment for managing titles, chapters, users, translation teams, releases, metadata and platform settings.
+</div>
 
+---
 
-============================================================
-PACKAGES
-============================================================
+# Overview
 
-All packages provide the same core functionality.
+**XI Projects** is a commercial CMS ecosystem designed specifically for:
 
-The difference is the underlying technology stack, deployment architecture and future customization potential.
+- Web novels
+- Light novels
+- Original fiction
+- Translation teams
+- Publishing groups
+- Multi-author platforms
+- Private novel communities
+- Commercial reading platforms
 
+Unlike generic blogging engines, XI Projects is built around the actual structure of serialized fiction.
 
-STARTED PACK
-$399
-
-Stack:
-• Yii 1 / Yii 2
-• PHP
-• MySQL / MariaDB
-
-Suitable for:
-• Translation teams
-• Private libraries
-• Lightweight deployments
-• Projects running on inexpensive VPS infrastructure
-
-A practical option for projects that need a complete CMS with low infrastructure requirements.
-
-
-------------------------------------------------------------
-
-MEDIUM PACK
-$499
-
-Stack:
-• Next.js
-• React
-• REST / API
-• SSR / ISR
-
-Suitable for:
-• Modern novel platforms
-• Commercial projects
-• API-oriented architectures
-• Projects focused on frontend performance
-• Platforms planning future scaling
-
-A modern frontend-oriented implementation suitable for contemporary web platforms.
-
-
-------------------------------------------------------------
-
-LARGE PACK
-$599
-
-Stack:
-• Laravel
-• PHP
-• API
-• Queue Workers
-• Background Jobs
-
-Suitable for:
-• Commercial platforms
-• Projects requiring external integrations
-• Complex backend workflows
-• Automation
-• Queue processing
-• Extended customization
-
-A flexible backend-oriented implementation based on the Laravel ecosystem.
-
-
-------------------------------------------------------------
-
-BOOST PACK
-$939
-
-Stack:
-• Private Engine
-• Proprietary architecture
-• High-performance backend
-• API-first architecture
-• Advanced infrastructure options
-
-Suitable for:
-• Large projects
-• High-load platforms
-• Custom infrastructure
-• Projects requiring deeper architectural flexibility
-• Customers requiring a private implementation
-
-The Boost Pack uses a private XI Projects engine that is not publicly distributed.
-
-
-============================================================
-IMPORTANT
-============================================================
-
-STARTED PACK, MEDIUM PACK, LARGE PACK and BOOST PACK contain the same core CMS functionality.
-
-The packages are not divided into artificial feature tiers.
-
-You are choosing the technology stack and architecture — not paying to unlock basic features.
-
-
-============================================================
-CORE FEATURES
-============================================================
-
-NOVEL MANAGEMENT
-
-Create and manage:
-
-• Novels
-• Light novels
-• Volumes
-• Chapters
-• Side stories
-• Alternative titles
-• Authors
-• Artists
-• Translators
-• Editors
-• Genres
-• Tags
-• Publication statuses
-• Age ratings
-• Covers
-• Descriptions
-• Metadata
-
-
-============================================================
-MODERN READER
-============================================================
-
-The built-in reader is designed for long-form fiction.
-
-Available functionality includes:
-
-• Typography customization
-• Font size settings
-• Reading width settings
-• Light theme
-• Dark theme
-• Chapter navigation
-• Reading history
-• Bookmarks
-• Reading progress
-• Mobile reading
-• Keyboard navigation
-• Responsive layout
-
-
-============================================================
-ADVANCED CATALOG
-============================================================
-
-Readers can browse and discover titles using:
-
-• Genres
-• Tags
-• Publication status
-• Popularity
-• Recently updated
-• New releases
-• Ratings
-• Alphabetical sorting
-• Advanced filters
-• Search
-
-
-============================================================
-RELEASE SYSTEM
-============================================================
-
-XI Projects supports structured serialized publishing.
-
-Example:
-
+```text
 Novel
- ├── Volume 1
- │    ├── Chapter 1
- │    ├── Chapter 2
- │    └── Chapter 3
- │
- ├── Volume 2
- │    ├── Chapter 4
- │    └── Chapter 5
- │
- └── Side Stories
+  ↓
+Volumes
+  ↓
+Chapters
+  ↓
+Releases
+  ↓
+Readers
+```
 
+Every package uses **PostgreSQL** as the primary database.
 
-============================================================
-TRANSLATION TEAMS
-============================================================
+The main CMS functionality is the same across all packages.
 
-The CMS can be used by translation groups and multi-user publishing teams.
+You are choosing the **technology stack and architecture**, not unlocking features through artificial pricing tiers.
 
-Possible roles:
+---
 
-• Administrator
-• Project Manager
-• Translator
-• Editor
-• Proofreader
-• Author
-• Publisher
-• Moderator
+# Packages
 
-Titles can be assigned to teams and individual contributors.
+| Package | Stack | Database | Price |
+|---|---|---|---:|
+| **Started Pack** | Yii 1 / Yii 2 | PostgreSQL | **$399** |
+| **Medium Pack** | Next.js stack | PostgreSQL | **$499** |
+| **Large Pack** | Laravel stack | PostgreSQL | **$599** |
+| **Boost Pack** | Private Engine | PostgreSQL | **$939** |
 
+> All packages include the same core CMS functionality.
 
-============================================================
-ADMINISTRATION PANEL
-============================================================
+---
 
-Centralized management for the entire platform.
+## Started Pack
+
+### `$399`
+
+A reliable and lightweight implementation built around the Yii ecosystem.
+
+**Stack**
+
+```text
+Yii 1 / Yii 2
+PHP
+PostgreSQL
+Redis-ready architecture
+Nginx / Caddy
+```
+
+Suitable for:
+
+- Translation teams
+- Private libraries
+- Smaller commercial projects
+- Low-cost VPS deployments
+- Projects where resource efficiency matters
+
+The Started Pack provides the full XI Projects CMS feature set without requiring an unnecessarily heavy infrastructure stack.
+
+---
+
+## Medium Pack
+
+### `$499`
+
+A modern implementation focused on frontend performance, API integrations and scalable web architecture.
+
+**Stack**
+
+```text
+Next.js
+React
+API Layer
+SSR / ISR
+PostgreSQL
+Redis-ready architecture
+```
+
+Suitable for:
+
+- Modern novel platforms
+- Commercial projects
+- API-oriented systems
+- Projects focused on frontend performance
+- Platforms planning future scaling
+
+The Medium Pack is intended for teams that prefer a modern JavaScript frontend stack while retaining the full XI Projects publishing ecosystem.
+
+---
+
+## Large Pack
+
+### `$599`
+
+A flexible commercial implementation built around the Laravel ecosystem.
+
+**Stack**
+
+```text
+Laravel
+PHP
+API
+Queue Workers
+Background Jobs
+PostgreSQL
+Redis-ready architecture
+```
+
+Suitable for:
+
+- Commercial platforms
+- Projects requiring external integrations
+- Advanced backend workflows
+- Background processing
+- Automation
+- Custom business logic
+
+The Large Pack is designed for projects that expect deeper backend customization and extensive integrations.
+
+---
+
+## Boost Pack
+
+### `$939`
+
+The highest-tier XI Projects implementation, based on a private proprietary engine.
+
+**Stack**
+
+```text
+Private XI Engine
+High-performance backend
+API-first architecture
+PostgreSQL
+Advanced caching
+Queue processing
+Custom infrastructure options
+```
+
+Suitable for:
+
+- Large platforms
+- High-load projects
+- Custom infrastructure
+- Advanced deployment scenarios
+- Projects requiring deeper architectural flexibility
+
+The Boost Pack uses a private XI Projects engine that is not distributed publicly.
+
+---
+
+# Same Functionality Across All Packs
+
+XI Projects does **not** split basic functionality into artificial feature tiers.
+
+Every package includes the same core platform functionality.
+
+| Feature | Started | Medium | Large | Boost |
+|---|:---:|:---:|:---:|:---:|
+| Novel Catalog | ✅ | ✅ | ✅ | ✅ |
+| Reader | ✅ | ✅ | ✅ | ✅ |
+| Admin Panel | ✅ | ✅ | ✅ | ✅ |
+| PostgreSQL | ✅ | ✅ | ✅ | ✅ |
+| User Accounts | ✅ | ✅ | ✅ | ✅ |
+| Roles & Permissions | ✅ | ✅ | ✅ | ✅ |
+| Translation Teams | ✅ | ✅ | ✅ | ✅ |
+| Volume Management | ✅ | ✅ | ✅ | ✅ |
+| Chapter Management | ✅ | ✅ | ✅ | ✅ |
+| Release System | ✅ | ✅ | ✅ | ✅ |
+| Genres & Tags | ✅ | ✅ | ✅ | ✅ |
+| Ratings | ✅ | ✅ | ✅ | ✅ |
+| Reading History | ✅ | ✅ | ✅ | ✅ |
+| Bookmarks | ✅ | ✅ | ✅ | ✅ |
+| Responsive UI | ✅ | ✅ | ✅ | ✅ |
+| SEO | ✅ | ✅ | ✅ | ✅ |
+| API Support | ✅ | ✅ | ✅ | ✅ |
+| Media Management | ✅ | ✅ | ✅ | ✅ |
+| Moderation Tools | ✅ | ✅ | ✅ | ✅ |
+
+The difference between packages is primarily:
+
+- Framework
+- Runtime architecture
+- Deployment approach
+- Customization flexibility
+- Scaling strategy
+
+---
+
+# Features
+
+## Novel Management
+
+Create and manage complete serialized fiction projects.
+
+Supported entities include:
+
+- Novels
+- Light novels
+- Web novels
+- Volumes
+- Chapters
+- Side stories
+- Alternative titles
+- Authors
+- Artists
+- Translators
+- Editors
+- Genres
+- Tags
+- Publication statuses
+- Age ratings
+- Covers
+- Descriptions
+- Metadata
+
+Example structure:
+
+```text
+Novel
+├── Volume 1
+│   ├── Chapter 1
+│   ├── Chapter 2
+│   └── Chapter 3
+│
+├── Volume 2
+│   ├── Chapter 4
+│   └── Chapter 5
+│
+└── Side Stories
+    ├── Side Story 1
+    └── Side Story 2
+```
+
+---
+
+## Modern Reader
+
+The built-in reader is designed specifically for long-form fiction.
+
+Available functionality can include:
+
+- Typography customization
+- Font size settings
+- Reading width settings
+- Light theme
+- Dark theme
+- Chapter navigation
+- Reading history
+- Reading progress
+- Bookmarks
+- Mobile reading
+- Keyboard navigation
+- Responsive layout
+- Reader preferences
+
+The reader is optimized for both desktop and mobile usage.
+
+---
+
+## Advanced Catalog
+
+Readers can discover titles through a structured catalog.
+
+Supported discovery tools include:
+
+- Genres
+- Tags
+- Publication status
+- Popularity
+- Recently updated
+- New releases
+- Ratings
+- Alphabetical sorting
+- Advanced filters
+- Full-text search
+
+---
+
+## Translation Teams
+
+XI Projects can be used by multi-user translation and publishing teams.
+
+Typical roles include:
+
+```text
+Administrator
+Project Manager
+Translator
+Editor
+Proofreader
+Author
+Publisher
+Moderator
+```
+
+Projects can be assigned to:
+
+- Teams
+- Individual translators
+- Editors
+- Proofreaders
+- Project managers
+
+This allows a publishing workflow to be organized directly inside the CMS.
+
+---
+
+## Administration Panel
+
+The administration panel provides centralized control over the entire platform.
 
 Administrators can manage:
 
-• Users
-• Novels
-• Chapters
-• Volumes
-• Teams
-• Releases
-• Reports
-• Comments
-• Moderation
-• Media
-• Permissions
-• SEO
-• Platform settings
-• System configuration
+- Users
+- Novels
+- Volumes
+- Chapters
+- Teams
+- Releases
+- Reports
+- Comments
+- Moderation
+- Media
+- Permissions
+- Roles
+- SEO
+- Platform settings
+- System configuration
 
+---
 
-============================================================
-SEO
-============================================================
+## SEO
 
 XI Projects is designed for search-friendly publishing.
 
-Supported architecture may include:
+Supported SEO architecture may include:
 
-• SEO-friendly URLs
-• Meta titles
-• Meta descriptions
-• OpenGraph metadata
-• Canonical URLs
-• Structured metadata
-• Sitemap generation
-• robots.txt configuration
-• Server-side rendering depending on stack
-
+- SEO-friendly URLs
+- Meta titles
+- Meta descriptions
+- OpenGraph metadata
+- Canonical URLs
+- Structured metadata
+- Sitemap generation
+- robots.txt configuration
+- Server-side rendering where supported
 
 Example URLs:
 
+```text
 /novel/shadow-slave
 /novel/shadow-slave/volume-3
 /novel/shadow-slave/chapter-184
+```
 
+---
 
-============================================================
-RESPONSIVE DESIGN
-============================================================
+## Responsive Design
 
-The platform is designed for:
+XI Projects is designed for:
 
-• Desktop
-• Laptop
-• Tablet
-• Mobile
+```text
+Desktop
+Laptop
+Tablet
+Mobile
+```
 
-Reader pages are optimized for long reading sessions and mobile devices.
+Reader pages are optimized for long reading sessions and small screens.
 
+---
 
-============================================================
-ARCHITECTURE
-============================================================
+# PostgreSQL
 
-Depending on the selected package, XI Projects can be deployed using different architectures.
+Every XI Projects package uses **PostgreSQL**.
 
-Example API-oriented structure:
+```text
+Started Pack  → PostgreSQL
+Medium Pack   → PostgreSQL
+Large Pack    → PostgreSQL
+Boost Pack    → PostgreSQL
+```
 
-┌─────────────────────────────┐
-│         FRONTEND            │
-│                             │
-│ Catalog / Reader / Account  │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│             API             │
-├─────────────────────────────┤
-│ Novels                      │
-│ Chapters                    │
-│ Users                       │
-│ Teams                       │
-│ Search                      │
-│ Administration              │
-└──────────────┬──────────────┘
-               │
-               ▼
-        Database / Storage
+PostgreSQL is used as the primary relational database for:
 
+- User accounts
+- Titles
+- Volumes
+- Chapters
+- Teams
+- Roles
+- Permissions
+- Reader progress
+- Bookmarks
+- Ratings
+- Metadata
+- Releases
+- Platform configuration
 
-============================================================
-BUILT FOR NOVELS, NOT BLOGS
-============================================================
+Depending on the project, PostgreSQL can be combined with:
 
-XI Projects is not a generic blog CMS with a novel theme installed on top.
+- Redis
+- S3-compatible object storage
+- CDN
+- Queue workers
+- Search services
+- Backup infrastructure
 
-Its data model and interfaces are designed around serialized fiction from the beginning.
+---
 
-Typical workflow:
+# Architecture
 
+XI Projects can be deployed using different application architectures while retaining PostgreSQL as the central database layer.
+
+```text
+┌───────────────────────────────┐
+│           FRONTEND            │
+│                               │
+│ Catalog / Reader / Profiles   │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│             API               │
+├───────────────────────────────┤
+│ Novels                        │
+│ Chapters                      │
+│ Users                         │
+│ Teams                         │
+│ Search                        │
+│ Administration                │
+│ Releases                      │
+└───────────────┬───────────────┘
+                │
+                ▼
+┌───────────────────────────────┐
+│          PostgreSQL           │
+├───────────────────────────────┤
+│ Users                         │
+│ Novels                        │
+│ Chapters                      │
+│ Teams                         │
+│ Metadata                      │
+│ Reader Data                   │
+└───────────────┬───────────────┘
+                │
+                ▼
+        Cache / Storage / CDN
+```
+
+---
+
+# Built for Novels, Not Blogs
+
+XI Projects is not a generic blog CMS with a novel theme added on top.
+
+The data model, administration interface and reader workflow are designed around serialized fiction from the beginning.
+
+Typical publishing workflow:
+
+```text
 Create Novel
      ↓
 Create Volume
@@ -351,221 +513,164 @@ Upload Chapters
      ↓
 Assign Team
      ↓
+Edit / Proofread
+     ↓
 Publish Release
      ↓
 Reader receives update
+```
 
+---
 
-============================================================
-DEPLOYMENT
-============================================================
+# Deployment
 
-Depending on the selected stack and project requirements, deployments can support:
+Depending on the selected package and project requirements, XI Projects can be deployed with:
 
-• Docker
-• Nginx
-• Caddy
-• Cloudflare
-• Linux VPS
-• PostgreSQL
-• MySQL
-• MariaDB
-• Redis
-• S3-compatible storage
-• CDN infrastructure
+- Linux VPS
+- Dedicated server
+- Docker
+- Nginx
+- Caddy
+- Cloudflare
+- PostgreSQL
+- Redis
+- S3-compatible storage
+- CDN infrastructure
+- Reverse proxy architecture
+- Queue workers
+- Backup infrastructure
 
+---
 
-============================================================
-PACKAGE COMPARISON
-============================================================
+# Pricing
 
-STARTED PACK
-Technology: Yii 1 / Yii 2
-Price: $399
+<div align="center">
 
-MEDIUM PACK
-Technology: Next.js
-Price: $499
+| Package | Technology | Price |
+|---|---|---:|
+| **Started Pack** | Yii 1 / Yii 2 + PostgreSQL | **$399** |
+| **Medium Pack** | Next.js + PostgreSQL | **$499** |
+| **Large Pack** | Laravel + PostgreSQL | **$599** |
+| **Boost Pack** | Private Engine + PostgreSQL | **$939** |
 
-LARGE PACK
-Technology: Laravel
-Price: $599
+### One-time commercial license
 
-BOOST PACK
-Technology: Private Engine
-Price: $939
+**No mandatory monthly CMS subscription.**
 
+</div>
 
-Core CMS functionality:
-STARTED PACK  — Included
-MEDIUM PACK   — Included
-LARGE PACK    — Included
-BOOST PACK    — Included
+---
 
+# Optional Services
 
-Novel Catalog:
-All packages — Included
+Additional services can be ordered separately.
 
-Reader:
-All packages — Included
+Examples:
 
-Admin Panel:
-All packages — Included
+- Custom UI / UX
+- Custom frontend
+- Custom reader design
+- Migration from another CMS
+- Infrastructure setup
+- API development
+- External integrations
+- Discord integration
+- Payment integration
+- CDN configuration
+- Cloudflare configuration
+- PostgreSQL migration
+- Database optimization
+- Backup configuration
+- Branding
+- Deployment
+- Server configuration
+- Performance optimization
+- Custom feature development
 
-Responsive UI:
-All packages — Included
+---
 
-SEO:
-All packages — Included
+# Who Is XI Projects For?
 
-Translation Teams:
-All packages — Included
-
-User Accounts:
-All packages — Included
-
-Release Management:
-All packages — Included
-
-Roles & Permissions:
-All packages — Included
-
-The primary difference between packages is the technology stack and architecture.
-
-
-============================================================
-PRICING
-============================================================
-
-STARTED PACK
-Yii 1 / Yii 2
-$399
-
-MEDIUM PACK
-Next.js
-$499
-
-LARGE PACK
-Laravel
-$599
-
-BOOST PACK
-Private Engine
-$939
-
-
-One-time commercial license.
-
-No mandatory monthly CMS subscription unless additional managed services are ordered separately.
-
-
-============================================================
-OPTIONAL SERVICES
-============================================================
-
-Additional services can be ordered separately:
-
-• Custom UI / UX
-• Custom frontend
-• Custom reader design
-• Migration from another CMS
-• Infrastructure setup
-• API development
-• External integrations
-• Discord integration
-• Payment integration
-• CDN configuration
-• Cloudflare configuration
-• Database migration
-• Custom feature development
-• Branding
-• Deployment
-• Server configuration
-• Performance optimization
-
-
-============================================================
-WHO IS XI PROJECTS FOR?
-============================================================
-
-TRANSLATION TEAMS
+## Translation Teams
 
 Manage multiple titles, translators, editors and releases from one centralized platform.
 
+## Publishers
 
-PUBLISHERS
+Launch a branded publishing platform using your own domain and infrastructure.
 
-Launch a branded publishing platform under your own domain and infrastructure.
-
-
-AUTHORS
+## Authors
 
 Publish serialized fiction through a platform specifically designed for chapters, volumes and releases.
 
-
-COMMUNITIES
+## Communities
 
 Create a centralized platform for readers, translators, editors and contributors.
 
+## Startups
 
-STARTUPS
+Launch a web novel service without spending months rebuilding basic publishing infrastructure from zero.
 
-Launch a web novel platform without spending months developing basic CMS infrastructure from zero.
+---
 
-
-============================================================
-DEMO
-============================================================
+# Demo
 
 A demonstration environment can be provided before purchase.
 
-The demo may include:
+The demo may include access to:
 
-• Homepage
-• Catalog
-• Novel page
-• Reader
-• User profile
-• Admin interface
-• Mobile version
+```text
+✓ Homepage
+✓ Catalog
+✓ Novel Page
+✓ Reader
+✓ User Profile
+✓ Admin Panel
+✓ Mobile Version
+```
 
+The internal source code and architecture of the **Boost Pack** private engine are not publicly exposed.
 
-The internal source code and architecture of the Boost Pack private engine are not publicly exposed.
+---
 
-
-============================================================
-LICENSE
-============================================================
+# License
 
 XI Projects is commercial proprietary software.
 
 A purchased license grants usage rights according to the selected agreement.
 
-Redistribution, resale, sublicensing or public publication of the source code is prohibited unless explicitly permitted by contract.
+Unless explicitly permitted by contract, the following are prohibited:
 
+- Redistribution
+- Resale of source code
+- Public source publication
+- Unauthorized sublicensing
+- Removal of licensing restrictions
 
-============================================================
-PURCHASE
-============================================================
+Custom commercial agreements may be discussed separately.
+
+---
+
+# Purchase
 
 For licensing, demonstrations, custom development or integration requests:
 
-Contact:
-support@xi.community
+```text
+Email:    your-contact@example.com
+Discord:  your-discord
+Telegram: @yourusername
+```
 
-Discord:
+---
 
+<div align="center">
 
-Telegram:
-@licht_re
+# XI PROJECTS
 
+### Build the library.  
+### Publish the story.  
+### Own the platform.
 
-============================================================
-XI PROJECTS
-============================================================
+**Commercial infrastructure for modern web fiction.**
 
-Build the library.
-Publish the story.
-Own the platform.
-
-Commercial infrastructure for modern web fiction.
+</div>
