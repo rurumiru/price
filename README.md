@@ -656,9 +656,9 @@ Custom commercial agreements may be discussed separately.
 For licensing, demonstrations, custom development or integration requests:
 
 ```text
-Email:    your-contact@example.com
-Discord:  your-discord
-Telegram: @yourusername
+Email:    rumisaca@gmail.com
+Discord:  exseiba
+Telegram: @licht_re
 ```
 
 ---
